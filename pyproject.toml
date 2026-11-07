@@ -1,0 +1,20 @@
+[project]
+name = "my-first-mcp-server"
+version = "0.1.0"
+description = "Leave Management MCP Server"
+requires-python = ">=3.11"
+
+dependencies = [
+    "mcp[cli]>=2.3.0,<3.0.0",
+    "psycopg[binary]>=3.3.8",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+my-first-mcp-server = "my_first_mcp_server:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
+
+# to run this mcp server use this command: uv run mcp dev src/my_first_mcp_server/__init__.py
