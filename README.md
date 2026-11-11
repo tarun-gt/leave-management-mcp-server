@@ -481,3 +481,5 @@ Possible next improvements include:
 This project is licensed under the MIT License.
 
 See the [LICENSE](LICENSE) file for details.
+
+[![M8ven Score](https://m8ven.ai/badge/mcp/tarun-gt-leave-management-mcp-server-1e9mln?v=d9a44238eeba70b759ee867b35605eb5)](https://m8ven.ai/mcp/tarun-gt-leave-management-mcp-server-1e9mln?s=readme)
